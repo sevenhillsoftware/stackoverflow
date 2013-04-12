@@ -1,0 +1,17 @@
+{
+   "Customers": 
+   [
+     {
+        "customer.name": "acme corp",
+        "some_key": "value",
+        "other_key": "other_value",
+        "another_key": "another value"
+     },
+     {
+        "customer.name": "bluechip",
+        "different_key": "value",
+        "foo_key": "other_value",
+        "baa": "another value"
+     }
+   ]
+}

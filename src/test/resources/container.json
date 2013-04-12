@@ -1,0 +1,13 @@
+{
+    "d": [
+        {
+            "intId": 2418,
+            "strName": "Error 404",
+            "strTitle": "Ooops, I couldn't find that!",
+            "strSummary": "Error 404, I couldn't find the page you're looking for.",
+            "strBody": "<p>You could try browsingthe website or checking that you typed the URL correctly, if you came to this page from another site, please let me know and thanks for visiting.</p>",
+            "strUpdateDate": null,
+            "strCreateDate": null
+        }
+    ]
+}
