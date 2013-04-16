@@ -3,7 +3,6 @@ package misc.stack.json;
 import java.math.BigDecimal;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class UserAccount implements HasMoney {
     @JsonIgnore
@@ -25,7 +24,6 @@ public class UserAccount implements HasMoney {
     }
 
     @Override
-    @JsonProperty
     public BigDecimal getMoney() {
         return money;
     }
@@ -34,7 +32,6 @@ public class UserAccount implements HasMoney {
         return name;
     }
 
-    @JsonIgnore
     @Override
     public void setMoney(final BigDecimal money) {
         this.money = money;
